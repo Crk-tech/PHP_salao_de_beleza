@@ -1,0 +1,278 @@
+/* CSS TELA INICIAL (INDEX.HTML)*/
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid {
+  flex: 1; 
+}
+
+footer {
+  margin-top: auto;
+}
+
+.menu-logo {
+  height: 50px;
+}
+
+.btn-custom {
+  background-color: #8b5d9b;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif !important; 
+  
+}
+
+.btn-custom:hover {
+  background-color: #6a3f7d;
+  color: rgb(174, 174, 174);
+}
+
+.btn-menu {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  min-width: 160px; /* força a largura igual */
+  padding: 30px 20px; /* padding maior */
+  text-align: center;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.agendar-banner {
+  width: 60%; 
+  height: 90px;
+  background-color: #8b5d9b;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin: 20px auto; /* centraliza horizontalmente */
+  display: flex;
+  justify-content: center;  /* alinha no centro horizontal */
+  align-items: center;      /* alinha no centro vertical */
+  color: white;
+  font-size: 1.5rem;
+}
+
+.botao-agendar {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 20px;
+  background-color: #f1c40f;
+  border: none;
+  padding: 10px 20px;
+  color: #4a235a;
+  font-weight: bold;
+  border-radius: 5px; 
+}
+
+.botao-agendar:hover{
+  background-color: #daaf05;
+  color: #4a235a;
+}
+
+.icon-calendario {
+  color: white;
+  font-size: 50px;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.custom-arrow {
+  color: rgb(72, 72, 72); /* cor da seta */
+  font-size: 2rem; /* tamanho da seta */
+  background-color: rgba(255, 255, 255, 0.6); /* fundo */
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+#menu-inicial{
+  border-radius: 20px !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+.bg-purple {
+  background-color: #8b5d9b;
+}
+
+.rodape{
+  background-color: #8b5d9b; 
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* CSS TELA AGENDAMENTO (AGENDAMENTO.PHP)*/
+.agendamento-box {
+  left: 0;
+  transform: none;
+  width: 700px;
+  height: auto;
+  background-color: #8b5d9b;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 40px 30px;
+  color: white;
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.1);
+}
+    
+.agendamento-box h2 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+}
+    
+.form-selecoes, .form-select {
+  margin-bottom: 15px;
+  border: 2px solid white;
+  border-radius: 0;
+  background-color: #8b5d9b;
+  color: white;
+  border-radius: 10px;
+}
+    
+.form-selecoes::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.agendamento-container {
+  margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.banner-lateral {
+  margin-left: 200px;
+  max-height: 100%; 
+  display: flex;
+  align-items: center;
+}
+
+.banner-lateral img {
+  height: 100%;
+  max-height: 540px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-warning{
+  background-color: #f1c40f;
+  color: #4a235a;
+  width: 90%;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-warning:hover{
+  background-color: #daaf05;
+  color: #4a235a;
+}
+    
+.calendar-icon {
+  font-size: 70px;
+  float: right;
+  margin-top: -100px;
+}
+
+/* CSS TELA CARRINHO (CARRINHO.PHP)*/
+
+.form-pesquisa{
+  border-radius: 20px;
+  border: 2px solid #c0c0c0;
+}
+
+.btn-pesquisa{
+  background-color: #8b5d9b;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn-pesquisa:hover {
+  background-color: #6a3f7d;
+  color: rgb(174, 174, 174);
+}
+
+.div-carrinho{
+  width: 180px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: #8b5d9b;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* CSS TELA SERVICOS (SERVICOS.PHP)*/
+
+.servico-box {
+  background-color: #8b5d9b;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+
+.servico-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CSS TELA PROFISSIONAIS (PROFISSIONAIS.PHP)*/
+
+.profissional-box {
+  background-color: #8b5d9b;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+
+.profissional-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.servico-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+/* CSS TELA UNIDADE (UNIDADE.HTML)*/
+.unidade-local{
+  background-color: #8b5d9b; 
+  color: white; 
+  font-family: 'Bebas Neue', cursive;
+}
