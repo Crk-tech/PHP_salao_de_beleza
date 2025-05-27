@@ -7,7 +7,7 @@ $servicos = $con->query("SELECT nome_Servico, preco FROM servico")->fetch_all(MY
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ic's Hair</title>
+    <title>Ic's Hair - Serviços</title>
     <link href="img/logo.png" rel="icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
